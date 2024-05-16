@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y python3 \
     python3-pip \
     libusb-1.0-0-dev \
     parallel \
+    unzip \
     locales && \
     apt-get clean autoclean && \
     apt-get autoremove

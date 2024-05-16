@@ -1,0 +1,22 @@
+{
+    "name": "ha_topics_classification",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "postCreateCommand": "",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // Other helpers
+                "shardulm94.trailing-spaces",
+                "stkb.rewrap" // rewrap comments after n characters on one line
+            ],
+            "settings": {
+                // General settings
+                "files.eol": "\n",
+                "rewrap.autoWrap.enabled": true,
+                "editor.formatOnSave": true
+            }
+        }
+    }
+}

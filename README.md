@@ -6,11 +6,11 @@ Classification of HTTP Archive origins by the Topics API.
 
 1. Clone this repository along with its submodule with: `git clone --recurse-submodules <HTTPS or SSH URL>`.
 
-2. Replace the `origins.txt` file with the domains to classify (just the FQDN).
+2. Place the `.csv` files with the HA origins under ha_urls.
 
-3. Launch classification (we recommend using a `screen` session): 
+3. Launch classification (we recommend using a `screen` session):
  - (if you have dependencies installed): `./classify_origins.sh`
-   - **System Dependencies:** `python3`, GNU `parallel`
+   - **System Dependencies:** `python3`, GNU `parallel`, `unzip`
    - **Python Dependencies:** `pandas`, `tflite-support`
  - (if using Docker): 
     ```
