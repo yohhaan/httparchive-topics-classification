@@ -1,4 +1,5 @@
 # HTTP Archive Topics API Classification
+[![DOI](https://zenodo.org/badge/800720707.svg)](https://doi.org/10.5281/zenodo.17584315)
 
 Classification of HTTP Archive origins by the Topics API.
 
